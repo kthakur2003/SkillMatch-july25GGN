@@ -31,7 +31,7 @@ Follow these steps:
 st.write(tips)
 
 job_desc = st.text_area(':green[COPY AND PASTE YOUR JOB DESCRIPTION HERE]',max_chars=50000)
-if st.button('SUMBIT'):
+if st.button('SUBMIT'):
     with st.spinner('Processing.....'):
         prompt =f'''
         <Role> You are an expert in analyzing resume and matching the job description
